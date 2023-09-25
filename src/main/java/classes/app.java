@@ -30,5 +30,8 @@ public class app {
         Collections.sort(palavras, comparadorPorTamanho);        
         System.out.println(palavras);
         
+        palavras.sort(comparadorPorTamanho);
+        System.out.println(palavras);
+        
     }
 }
